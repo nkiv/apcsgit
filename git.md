@@ -22,3 +22,4 @@
 * add -> add a file to the stage
 * rm --cached -> remove file from stage
 * git commit -m "Present tense description fo what changed"
+* git log -> Enter to move down, q to quit
