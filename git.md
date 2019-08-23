@@ -8,6 +8,11 @@
 ## Project setup
 
 'git init'
+'touch .gitignore'
+Add '*.class' to the git .gitignore
+file and save it.
+'git add .'
+'git commit -m "Initial commit"'
 
 ## 3 Steps Repeating Commit Process
 
@@ -23,8 +28,10 @@
 * rm --cached -> remove file from stage
 * git commit -m "Present tense description fo what changed"
 * git log -> Enter to move down, q to quit
+* git checkout -- filename -> discard changes
 
 
 ## Problems
 * commit without -m  -> use Esc :wq to quit Vim
 * wrong message -> git commit --amend -m "new message here"
+* wroing commit -> git checkout COMMIT_ID
